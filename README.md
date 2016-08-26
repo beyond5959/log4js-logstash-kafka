@@ -13,8 +13,8 @@ In the "input" part of the logstash server conf :
 ```
 input {
   kafka {
-    topic_id => "YOURKEY"
-  	codec => json
+    topic_id => "YOURTOPIC"
+    codec => json
   }
 }
 ```
@@ -27,7 +27,7 @@ Plain javascript
   log4js.configure({
       appenders: [{
           type: "log4js-logstash-kafka",
-          key: "YOURKEY"
+          topic: "YOURTOPIC"
       }]
   });
 
