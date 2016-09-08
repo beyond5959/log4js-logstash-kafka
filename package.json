@@ -1,7 +1,7 @@
 {
   "name": "log4js-logstash-kafka",
-  "version": "0.0.2",
-  "description": "A simple log appender for log4js that sends the data to logstash by redis.",
+  "version": "0.0.3",
+  "description": "A simple log appender for log4js that sends the data to logstash by kafka.",
   "main": "index.js",
   "dependencies": {
     "log4js": "^0.6.38",
